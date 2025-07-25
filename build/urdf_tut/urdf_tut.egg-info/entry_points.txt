@@ -1,0 +1,2 @@
+[console_scripts]
+read_encoder = urdf_tut.read_encoder:main

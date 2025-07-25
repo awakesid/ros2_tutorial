@@ -1,0 +1,25 @@
+[1.589s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/build --no-deps symlink_data
+[2.178s] running develop
+[2.531s] running egg_info
+[2.531s] creating tutorial_node.egg-info
+[2.565s] writing tutorial_node.egg-info/PKG-INFO
+[2.566s] writing dependency_links to tutorial_node.egg-info/dependency_links.txt
+[2.566s] writing entry points to tutorial_node.egg-info/entry_points.txt
+[2.566s] writing requirements to tutorial_node.egg-info/requires.txt
+[2.567s] writing top-level names to tutorial_node.egg-info/top_level.txt
+[2.567s] writing manifest file 'tutorial_node.egg-info/SOURCES.txt'
+[2.637s] reading manifest file 'tutorial_node.egg-info/SOURCES.txt'
+[2.638s] writing manifest file 'tutorial_node.egg-info/SOURCES.txt'
+[2.673s] running build_ext
+[2.673s] Creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages/tutorial-node.egg-link (link to .)
+[2.673s] Installing publisher_node script to /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/tutorial_node
+[2.674s] Installing subscriber_node script to /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/tutorial_node
+[2.674s] 
+[2.674s] Installed /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node
+[2.675s] running symlink_data
+[2.675s] creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/ament_index
+[2.675s] creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/ament_index/resource_index
+[2.675s] creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/ament_index/resource_index/packages
+[2.676s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/resource/tutorial_node -> /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/ament_index/resource_index/packages
+[2.676s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/tutorial_node
+[2.736s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/build --no-deps symlink_data

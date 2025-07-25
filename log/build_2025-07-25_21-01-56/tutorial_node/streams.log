@@ -1,0 +1,18 @@
+[2.107s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/build --no-deps symlink_data
+[2.781s] running develop
+[3.162s] running egg_info
+[3.192s] writing tutorial_node.egg-info/PKG-INFO
+[3.192s] writing dependency_links to tutorial_node.egg-info/dependency_links.txt
+[3.193s] writing entry points to tutorial_node.egg-info/entry_points.txt
+[3.193s] writing requirements to tutorial_node.egg-info/requires.txt
+[3.193s] writing top-level names to tutorial_node.egg-info/top_level.txt
+[3.281s] reading manifest file 'tutorial_node.egg-info/SOURCES.txt'
+[3.282s] writing manifest file 'tutorial_node.egg-info/SOURCES.txt'
+[3.316s] running build_ext
+[3.317s] Creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages/tutorial-node.egg-link (link to .)
+[3.318s] Installing publisher_node script to /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/tutorial_node
+[3.319s] Installing subscriber_node script to /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/tutorial_node
+[3.319s] 
+[3.319s] Installed /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node
+[3.320s] running symlink_data
+[3.387s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/build --no-deps symlink_data

@@ -1,0 +1,3 @@
+[console_scripts]
+publisher_node = tutorial_node.publisher_node:main
+subscriber_node = tutorial_node.subscriber_node:main

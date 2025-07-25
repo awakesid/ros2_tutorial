@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/urdf_tut/urdf_tut.egg-info
+writing ../build/urdf_tut/urdf_tut.egg-info/PKG-INFO
+writing dependency_links to ../build/urdf_tut/urdf_tut.egg-info/dependency_links.txt
+writing entry points to ../build/urdf_tut/urdf_tut.egg-info/entry_points.txt
+writing requirements to ../build/urdf_tut/urdf_tut.egg-info/requires.txt
+writing top-level names to ../build/urdf_tut/urdf_tut.egg-info/top_level.txt
+writing manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'
+reading manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build
+creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib
+creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut
+copying urdf_tut/read_encoder.py -> /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut
+copying urdf_tut/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut
+running install
+running install_lib
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut
+copying /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut/read_encoder.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut
+copying /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut
+byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut/read_encoder.py to read_encoder.cpython-312.pyc
+byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index/packages
+copying resource/urdf_tut -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index/packages
+copying package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/launch
+copying launch/display.launch.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/launch
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/config
+copying config/robot.rviz -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/config
+creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/urdf
+copying urdf/my_robot.urdf -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/urdf
+running install_egg_info
+Copying ../build/urdf_tut/urdf_tut.egg-info to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut-0.0.0-py3.12.egg-info
+running install_scripts
+Installing read_encoder script to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/urdf_tut
+writing list of installed files to '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/install.log'

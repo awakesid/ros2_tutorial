@@ -1,0 +1,2 @@
+[console_scripts]
+hello_node = my_pkg.hello_node:main

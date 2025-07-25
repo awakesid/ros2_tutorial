@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/sensor_demo/sensor_demo.egg-info
+writing ../../build/sensor_demo/sensor_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_demo/sensor_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_demo/sensor_demo.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_demo/sensor_demo.egg-info/requires.txt
+writing top-level names to ../../build/sensor_demo/sensor_demo.egg-info/top_level.txt
+writing manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build
+creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib
+creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+copying sensor_demo/led_controller.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+copying sensor_demo/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+copying sensor_demo/sensor_reader.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+running install
+running install_lib
+creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/led_controller.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/sensor_reader.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/led_controller.py to led_controller.cpython-312.pyc
+byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/sensor_reader.py to sensor_reader.cpython-312.pyc
+running install_data
+creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index
+creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index
+creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index/packages
+copying resource/sensor_demo -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/sensor_demo
+running install_egg_info
+Copying ../../build/sensor_demo/sensor_demo.egg-info to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing led_controller script to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/sensor_demo
+Installing sensor_reader script to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/sensor_demo
+writing list of installed files to '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/install.log'

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<robot name="motor_assembly">
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.6" radius="0.2"/>
+      </geometry>
+      <origin xyz="0 0 0.4"/>
+      <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Rotor (Wheel) -->
+  <link name="rotor">
+    <visual>
+      <geometry>
+        <cylinder radius="0.3" length="0.1"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Joint - Make sure type is continuous -->
+  <joint name="base_to_right_leg" type="continuous">
+    <parent link="base_link"/>
+    <child link="rotor"/>
+    <axis xyz="0 0 1"/>  <!-- Rotation around Z-axis -->
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>
+  </joint>
+</robot>

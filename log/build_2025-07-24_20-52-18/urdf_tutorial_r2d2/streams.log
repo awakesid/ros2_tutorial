@@ -1,0 +1,28 @@
+[1.654s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data
+[2.587s] running develop
+[3.202s] running egg_info
+[3.202s] creating urdf_tutorial_r2d2.egg-info
+[3.260s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[3.260s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[3.261s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[3.262s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[3.263s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[3.263s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[3.395s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[3.395s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[3.462s] running build_ext
+[3.464s] Creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.12/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[3.464s] Installing state_publisher script to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[3.466s] 
+[3.467s] Installed /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2
+[3.467s] running symlink_data
+[3.467s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/ament_index
+[3.467s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index
+[3.467s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[3.468s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/resource/urdf_tutorial_r2d2 -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[3.468s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[3.468s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[3.468s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/launch/demo_launch.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[3.468s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/urdf/r2d2.rviz -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[3.468s] symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/urdf/r2d2.urdf.xml -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[3.558s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data

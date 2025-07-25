@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001067] (urdf_tut) JobQueued: {'identifier': 'urdf_tut', 'dependencies': OrderedDict()}
+[0.001180] (urdf_tut) JobStarted: {'identifier': 'urdf_tut'}
+[0.099188] (-) TimerEvent: {}
+[0.199506] (-) TimerEvent: {}
+[0.300710] (-) TimerEvent: {}
+[0.402849] (-) TimerEvent: {}
+[0.503234] (-) TimerEvent: {}
+[0.603606] (-) TimerEvent: {}
+[0.703968] (-) TimerEvent: {}
+[0.804316] (-) TimerEvent: {}
+[0.904652] (-) TimerEvent: {}
+[1.004989] (-) TimerEvent: {}
+[1.105310] (-) TimerEvent: {}
+[1.205627] (-) TimerEvent: {}
+[1.305991] (-) TimerEvent: {}
+[1.406302] (-) TimerEvent: {}
+[1.506634] (-) TimerEvent: {}
+[1.607028] (-) TimerEvent: {}
+[1.707408] (-) TimerEvent: {}
+[1.766432] (urdf_tut) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/urdf_tut', 'build', '--build-base', '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build', 'install', '--record', '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/awakesid/Desktop/second_ros2_ws/urdf_tut', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awakesid', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/awakesid', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/awakesid/Desktop/second_ros2_ws/urdf_tut', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3522', 'BUNDLED_DEBUGPY_PATH': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'awakesid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awakesid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/awakesid/.local/bin:/home/awakesid/.local/bin:/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/awakesid/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/awakesid/.local/bin', 'SESSION_MANAGER': 'local/awakesid-pc:@/tmp/.ICE-unix/3272,unix/awakesid-pc:/tmp/.ICE-unix/3272', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3d833851_5f63_44df_b73c_d6054025a257', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-604e799a322deb01.txt', 'VSCODE_INJECTION': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y5LL92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5e9df243f4.sock', 'GNOME_TERMINAL_SERVICE': ':1.985', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.807507] (-) TimerEvent: {}
+[1.908709] (-) TimerEvent: {}
+[2.009239] (-) TimerEvent: {}
+[2.109593] (-) TimerEvent: {}
+[2.209990] (-) TimerEvent: {}
+[2.254442] (urdf_tut) StdoutLine: {'line': b'running egg_info\n'}
+[2.255033] (urdf_tut) StdoutLine: {'line': b'creating ../build/urdf_tut/urdf_tut.egg-info\n'}
+[2.285931] (urdf_tut) StdoutLine: {'line': b'writing ../build/urdf_tut/urdf_tut.egg-info/PKG-INFO\n'}
+[2.286362] (urdf_tut) StdoutLine: {'line': b'writing dependency_links to ../build/urdf_tut/urdf_tut.egg-info/dependency_links.txt\n'}
+[2.286731] (urdf_tut) StdoutLine: {'line': b'writing entry points to ../build/urdf_tut/urdf_tut.egg-info/entry_points.txt\n'}
+[2.286998] (urdf_tut) StdoutLine: {'line': b'writing requirements to ../build/urdf_tut/urdf_tut.egg-info/requires.txt\n'}
+[2.287267] (urdf_tut) StdoutLine: {'line': b'writing top-level names to ../build/urdf_tut/urdf_tut.egg-info/top_level.txt\n'}
+[2.287506] (urdf_tut) StdoutLine: {'line': b"writing manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'\n"}
+[2.310078] (-) TimerEvent: {}
+[2.367058] (urdf_tut) StdoutLine: {'line': b"reading manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'\n"}
+[2.367901] (urdf_tut) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.368889] (urdf_tut) StdoutLine: {'line': b"writing manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'\n"}
+[2.369295] (urdf_tut) StdoutLine: {'line': b'running build\n'}
+[2.369519] (urdf_tut) StdoutLine: {'line': b'running build_py\n'}
+[2.369884] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build\n'}
+[2.370097] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib\n'}
+[2.370370] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut\n'}
+[2.370546] (urdf_tut) StdoutLine: {'line': b'copying urdf_tut/read_encoder.py -> /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut\n'}
+[2.370813] (urdf_tut) StdoutLine: {'line': b'copying urdf_tut/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut\n'}
+[2.370994] (urdf_tut) StdoutLine: {'line': b'running install\n'}
+[2.380669] (urdf_tut) StdoutLine: {'line': b'running install_lib\n'}
+[2.410197] (-) TimerEvent: {}
+[2.419975] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut\n'}
+[2.421426] (urdf_tut) StdoutLine: {'line': b'copying /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut/read_encoder.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut\n'}
+[2.421957] (urdf_tut) StdoutLine: {'line': b'copying /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut\n'}
+[2.424228] (urdf_tut) StdoutLine: {'line': b'byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut/read_encoder.py to read_encoder.cpython-312.pyc\n'}
+[2.424915] (urdf_tut) StdoutLine: {'line': b'byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut/__init__.py to __init__.cpython-312.pyc\n'}
+[2.425712] (urdf_tut) StdoutLine: {'line': b'running install_data\n'}
+[2.426803] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index\n'}
+[2.427468] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index\n'}
+[2.428185] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index/packages\n'}
+[2.428866] (urdf_tut) StdoutLine: {'line': b'copying resource/urdf_tut -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index/packages\n'}
+[2.429109] (urdf_tut) StdoutLine: {'line': b'copying package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut\n'}
+[2.429324] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/launch\n'}
+[2.429527] (urdf_tut) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/launch\n'}
+[2.430492] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/config\n'}
+[2.430873] (urdf_tut) StdoutLine: {'line': b'copying config/robot.rviz -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/config\n'}
+[2.432244] (urdf_tut) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/urdf\n'}
+[2.432515] (urdf_tut) StdoutLine: {'line': b'copying urdf/my_robot.urdf -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/urdf\n'}
+[2.432792] (urdf_tut) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.474694] (urdf_tut) StdoutLine: {'line': b'Copying ../build/urdf_tut/urdf_tut.egg-info to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut-0.0.0-py3.12.egg-info\n'}
+[2.476599] (urdf_tut) StdoutLine: {'line': b'running install_scripts\n'}
+[2.510301] (-) TimerEvent: {}
+[2.610615] (-) TimerEvent: {}
+[2.710955] (-) TimerEvent: {}
+[2.724075] (urdf_tut) StdoutLine: {'line': b'Installing read_encoder script to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/urdf_tut\n'}
+[2.725138] (urdf_tut) StdoutLine: {'line': b"writing list of installed files to '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/install.log'\n"}
+[2.774418] (urdf_tut) CommandEnded: {'returncode': 0}
+[2.797260] (urdf_tut) JobEnded: {'identifier': 'urdf_tut', 'rc': 0}
+[2.798580] (-) EventReactorShutdown: {}

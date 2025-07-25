@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing tutorial_node.egg-info/PKG-INFO
+writing dependency_links to tutorial_node.egg-info/dependency_links.txt
+writing entry points to tutorial_node.egg-info/entry_points.txt
+writing requirements to tutorial_node.egg-info/requires.txt
+writing top-level names to tutorial_node.egg-info/top_level.txt
+reading manifest file 'tutorial_node.egg-info/SOURCES.txt'
+writing manifest file 'tutorial_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/python3.12/site-packages/tutorial-node.egg-link (link to .)
+Installing publisher_node script to /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/tutorial_node
+Installing subscriber_node script to /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/lib/tutorial_node
+
+Installed /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node
+running symlink_data
+creating /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/tutorial_node/launch
+symbolically linking /home/awakesid/Desktop/second_ros2_ws/build/tutorial_node/launch/pub_sub_launch.py -> /home/awakesid/Desktop/second_ros2_ws/install/tutorial_node/share/tutorial_node/launch

@@ -1,0 +1,3 @@
+[console_scripts]
+led_controller = sensor_demo.led_controller:main
+sensor_reader = sensor_demo.sensor_reader:main

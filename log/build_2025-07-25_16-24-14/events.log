@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (-) JobUnselected: {'identifier': 'my_pkg1'}
+[0.000514] (-) JobUnselected: {'identifier': 'sensor_demo'}
+[0.000559] (-) JobUnselected: {'identifier': 'tutorial_node'}
+[0.000591] (-) JobUnselected: {'identifier': 'urdf_tut'}
+[0.000626] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.001256] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[0.099525] (-) TimerEvent: {}
+[0.199853] (-) TimerEvent: {}
+[0.300163] (-) TimerEvent: {}
+[0.400524] (-) TimerEvent: {}
+[0.500929] (-) TimerEvent: {}
+[0.601269] (-) TimerEvent: {}
+[0.701603] (-) TimerEvent: {}
+[0.802562] (-) TimerEvent: {}
+[0.902935] (-) TimerEvent: {}
+[1.003288] (-) TimerEvent: {}
+[1.103616] (-) TimerEvent: {}
+[1.203941] (-) TimerEvent: {}
+[1.304259] (-) TimerEvent: {}
+[1.405094] (-) TimerEvent: {}
+[1.505495] (-) TimerEvent: {}
+[1.538130] (my_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'awakesid', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '4', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CHROME_DESKTOP': 'code.desktop', 'HOME': '/home/awakesid', 'DESKTOP_SESSION': 'ubuntu', 'TERM_PROGRAM_VERSION': '1.102.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '3027', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3299', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUNDLED_DEBUGPY_PATH': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6099', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'awakesid', 'JOURNAL_STREAM': '9:22165', 'ROS_VERSION': '2 set -gx ROS_PYTHON_VERSION 3 set -gx AMENT_PREFIX_PATH /opt/ros/jazzy set -gx ROS_AUTOMATIC_DISCOVERY_RANGE SUBNET set -gx ROS_DISTRO jazzy', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'TERM': 'xterm-256color', 'USERNAME': 'awakesid', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/awakesid/.local/bin:/home/awakesid/.local/bin:/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/awakesid/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/awakesid/.local/bin:/home/awakesid/.local/bin', 'SESSION_MANAGER': 'local/awakesid-pc:@/tmp/.ICE-unix/3250,unix/awakesid-pc:/tmp/.ICE-unix/3250', 'INVOCATION_ID': '00b116404be946909bf9d4314f9ab7c5', 'GDK_BACKEND': 'x11', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-604e799a322deb01.txt', 'VSCODE_INJECTION': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5e9df243f4.sock', 'TERM_PROGRAM': 'vscode', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WM2HA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.605604] (-) TimerEvent: {}
+[1.705933] (-) TimerEvent: {}
+[1.806269] (-) TimerEvent: {}
+[1.906629] (-) TimerEvent: {}
+[2.007027] (-) TimerEvent: {}
+[2.099363] (my_pkg) StdoutLine: {'line': b'running develop\n'}
+[2.107156] (-) TimerEvent: {}
+[2.207485] (-) TimerEvent: {}
+[2.307815] (-) TimerEvent: {}
+[2.408156] (-) TimerEvent: {}
+[2.459100] (my_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.489256] (my_pkg) StdoutLine: {'line': b'writing my_pkg.egg-info/PKG-INFO\n'}
+[2.489639] (my_pkg) StdoutLine: {'line': b'writing dependency_links to my_pkg.egg-info/dependency_links.txt\n'}
+[2.489939] (my_pkg) StdoutLine: {'line': b'writing entry points to my_pkg.egg-info/entry_points.txt\n'}
+[2.490239] (my_pkg) StdoutLine: {'line': b'writing requirements to my_pkg.egg-info/requires.txt\n'}
+[2.490537] (my_pkg) StdoutLine: {'line': b'writing top-level names to my_pkg.egg-info/top_level.txt\n'}
+[2.508245] (-) TimerEvent: {}
+[2.570255] (my_pkg) StdoutLine: {'line': b"reading manifest file 'my_pkg.egg-info/SOURCES.txt'\n"}
+[2.571473] (my_pkg) StdoutLine: {'line': b"writing manifest file 'my_pkg.egg-info/SOURCES.txt'\n"}
+[2.603891] (my_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.605538] (my_pkg) StdoutLine: {'line': b'Creating /home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages/my-pkg.egg-link (link to .)\n'}
+[2.605744] (my_pkg) StdoutLine: {'line': b'Installing hello_node script to /home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/my_pkg\n'}
+[2.606019] (my_pkg) StdoutLine: {'line': b'\n'}
+[2.606215] (my_pkg) StdoutLine: {'line': b'Installed /home/awakesid/Desktop/second_ros2_ws/build/my_pkg\n'}
+[2.606389] (my_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[2.608374] (-) TimerEvent: {}
+[2.667218] (my_pkg) CommandEnded: {'returncode': 0}
+[2.689360] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[2.690722] (-) EventReactorShutdown: {}

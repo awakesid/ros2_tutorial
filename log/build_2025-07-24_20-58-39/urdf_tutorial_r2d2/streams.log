@@ -1,0 +1,17 @@
+[1.515s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data
+[2.109s] running develop
+[2.464s] running egg_info
+[2.493s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[2.494s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[2.494s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[2.494s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[2.495s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[2.580s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.582s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.615s] running build_ext
+[2.615s] Creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.12/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[2.616s] Installing state_publisher script to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[2.617s] 
+[2.617s] Installed /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2
+[2.617s] running symlink_data
+[2.678s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data

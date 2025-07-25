@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (-) JobUnselected: {'identifier': 'my_pkg1'}
+[0.000779] (-) JobUnselected: {'identifier': 'sensor_demo'}
+[0.000968] (-) JobUnselected: {'identifier': 'tutorial_node'}
+[0.001023] (-) JobUnselected: {'identifier': 'urdf_tut'}
+[0.001084] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.001142] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[0.099287] (-) TimerEvent: {}
+[0.199608] (-) TimerEvent: {}
+[0.299924] (-) TimerEvent: {}
+[0.400248] (-) TimerEvent: {}
+[0.500595] (-) TimerEvent: {}
+[0.602775] (-) TimerEvent: {}
+[0.703107] (-) TimerEvent: {}
+[0.803459] (-) TimerEvent: {}
+[0.903748] (-) TimerEvent: {}
+[1.004060] (-) TimerEvent: {}
+[1.104389] (-) TimerEvent: {}
+[1.204710] (-) TimerEvent: {}
+[1.305052] (-) TimerEvent: {}
+[1.306925] (my_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'awakesid', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'HOME': '/home/awakesid', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3027', 'BUNDLED_DEBUGPY_PATH': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3299', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6099', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'awakesid', 'JOURNAL_STREAM': '9:22165', 'ROS_VERSION': 'set -gx ROS_PYTHON_VERSION set -gx AMENT_PREFIX_PATH set -gx ROS_AUTOMATIC_DISCOVERY_RANGE set -gx ROS_DISTRO set -gx ROS_PYTHON_VERSION  set -gx AMENT_PREFIX_PATH  set -gx ROS_AUTOMATIC_DISCOVERY_RANGE  set -gx ROS_DISTRO', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'TERM': 'xterm-256color', 'USERNAME': 'awakesid', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/awakesid/.local/bin:/home/awakesid/.local/bin:/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/awakesid/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/awakesid/.local/bin', 'INVOCATION_ID': '00b116404be946909bf9d4314f9ab7c5', 'SESSION_MANAGER': 'local/awakesid-pc:@/tmp/.ICE-unix/3250,unix/awakesid-pc:/tmp/.ICE-unix/3250', 'GDK_BACKEND': 'x11', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VSCODE_INJECTION': '1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-604e799a322deb01.txt', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5e9df243f4.sock', 'TERM_PROGRAM': 'vscode', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WM2HA3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'PYTHONPATH': '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages:'}, 'shell': False}
+[1.405183] (-) TimerEvent: {}
+[1.505520] (-) TimerEvent: {}
+[1.605853] (-) TimerEvent: {}
+[1.707179] (-) TimerEvent: {}
+[1.757360] (my_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.807325] (-) TimerEvent: {}
+[1.907648] (-) TimerEvent: {}
+[1.969589] (my_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.986770] (my_pkg) StdoutLine: {'line': b'writing my_pkg.egg-info/PKG-INFO\n'}
+[1.987204] (my_pkg) StdoutLine: {'line': b'writing dependency_links to my_pkg.egg-info/dependency_links.txt\n'}
+[1.987595] (my_pkg) StdoutLine: {'line': b'writing entry points to my_pkg.egg-info/entry_points.txt\n'}
+[1.987913] (my_pkg) StdoutLine: {'line': b'writing requirements to my_pkg.egg-info/requires.txt\n'}
+[1.988216] (my_pkg) StdoutLine: {'line': b'writing top-level names to my_pkg.egg-info/top_level.txt\n'}
+[2.007792] (-) TimerEvent: {}
+[2.030729] (my_pkg) StdoutLine: {'line': b"reading manifest file 'my_pkg.egg-info/SOURCES.txt'\n"}
+[2.032596] (my_pkg) StdoutLine: {'line': b"writing manifest file 'my_pkg.egg-info/SOURCES.txt'\n"}
+[2.065928] (my_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.066346] (my_pkg) StdoutLine: {'line': b'Creating /home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages/my-pkg.egg-link (link to .)\n'}
+[2.067754] (my_pkg) StdoutLine: {'line': b'Installing hello_node script to /home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/my_pkg\n'}
+[2.068089] (my_pkg) StdoutLine: {'line': b'\n'}
+[2.068295] (my_pkg) StdoutLine: {'line': b'Installed /home/awakesid/Desktop/second_ros2_ws/build/my_pkg\n'}
+[2.068477] (my_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[2.107926] (-) TimerEvent: {}
+[2.125822] (my_pkg) CommandEnded: {'returncode': 0}
+[2.154482] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[2.159075] (-) EventReactorShutdown: {}

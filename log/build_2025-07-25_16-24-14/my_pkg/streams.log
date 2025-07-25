@@ -1,0 +1,17 @@
+[1.540s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/my_pkg/build --no-deps symlink_data
+[2.098s] running develop
+[2.458s] running egg_info
+[2.488s] writing my_pkg.egg-info/PKG-INFO
+[2.489s] writing dependency_links to my_pkg.egg-info/dependency_links.txt
+[2.489s] writing entry points to my_pkg.egg-info/entry_points.txt
+[2.489s] writing requirements to my_pkg.egg-info/requires.txt
+[2.489s] writing top-level names to my_pkg.egg-info/top_level.txt
+[2.569s] reading manifest file 'my_pkg.egg-info/SOURCES.txt'
+[2.570s] writing manifest file 'my_pkg.egg-info/SOURCES.txt'
+[2.604s] running build_ext
+[2.604s] Creating /home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages/my-pkg.egg-link (link to .)
+[2.605s] Installing hello_node script to /home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/my_pkg
+[2.605s] 
+[2.605s] Installed /home/awakesid/Desktop/second_ros2_ws/build/my_pkg
+[2.605s] running symlink_data
+[2.667s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/build/my_pkg' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/my_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awakesid/Desktop/second_ros2_ws/build/my_pkg/build --no-deps symlink_data

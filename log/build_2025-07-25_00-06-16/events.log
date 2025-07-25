@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.002873] (-) JobUnselected: {'identifier': 'urdf_tut'}
+[0.003020] (sensor_demo) JobQueued: {'identifier': 'sensor_demo', 'dependencies': OrderedDict()}
+[0.003102] (sensor_demo) JobStarted: {'identifier': 'sensor_demo'}
+[0.099889] (-) TimerEvent: {}
+[0.200243] (-) TimerEvent: {}
+[0.300575] (-) TimerEvent: {}
+[0.401032] (-) TimerEvent: {}
+[0.503135] (-) TimerEvent: {}
+[0.603942] (-) TimerEvent: {}
+[0.704259] (-) TimerEvent: {}
+[0.804596] (-) TimerEvent: {}
+[0.904897] (-) TimerEvent: {}
+[1.006119] (-) TimerEvent: {}
+[1.106513] (-) TimerEvent: {}
+[1.206892] (-) TimerEvent: {}
+[1.307237] (-) TimerEvent: {}
+[1.407682] (-) TimerEvent: {}
+[1.508463] (-) TimerEvent: {}
+[1.608838] (-) TimerEvent: {}
+[1.674944] (sensor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_demo', 'build', '--build-base', '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build', 'install', '--record', '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/awakesid/Desktop/second_ros2_ws/src/sensor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awakesid', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '4', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CHROME_DESKTOP': 'code.desktop', 'HOME': '/home/awakesid', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUNDLED_DEBUGPY_PATH': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '3312', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'awakesid', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2 set -gx ROS_PYTHON_VERSION 3 set -gx AMENT_PREFIX_PATH /opt/ros/jazzy set -gx ROS_AUTOMATIC_DISCOVERY_RANGE SUBNET set -gx ROS_DISTRO jazzy', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'TERM': 'xterm-256color', 'USERNAME': 'awakesid', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/awakesid/.local/bin:/home/awakesid/.local/bin:/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/awakesid/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/awakesid/.local/bin:/home/awakesid/.local/bin', 'SESSION_MANAGER': 'local/awakesid-pc:@/tmp/.ICE-unix/3272,unix/awakesid-pc:/tmp/.ICE-unix/3272', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b67432f8_7d24_40a1_8114_723ffd0455f6', 'GDK_BACKEND': 'x11', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/awakesid/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-604e799a322deb01.txt', 'VSCODE_INJECTION': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XDG_SESSION_DESKTOP': 'ubuntu', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5e9df243f4.sock', 'TERM_PROGRAM': 'vscode', 'GNOME_TERMINAL_SERVICE': ':1.1318', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y5LL92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.708953] (-) TimerEvent: {}
+[1.809285] (-) TimerEvent: {}
+[1.909599] (-) TimerEvent: {}
+[2.010335] (-) TimerEvent: {}
+[2.111269] (-) TimerEvent: {}
+[2.176849] (sensor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[2.177475] (sensor_demo) StdoutLine: {'line': b'creating ../../build/sensor_demo/sensor_demo.egg-info\n'}
+[2.209340] (sensor_demo) StdoutLine: {'line': b'writing ../../build/sensor_demo/sensor_demo.egg-info/PKG-INFO\n'}
+[2.211368] (-) TimerEvent: {}
+[2.213696] (sensor_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_demo/sensor_demo.egg-info/dependency_links.txt\n'}
+[2.214003] (sensor_demo) StdoutLine: {'line': b'writing entry points to ../../build/sensor_demo/sensor_demo.egg-info/entry_points.txt\n'}
+[2.214234] (sensor_demo) StdoutLine: {'line': b'writing requirements to ../../build/sensor_demo/sensor_demo.egg-info/requires.txt\n'}
+[2.214457] (sensor_demo) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_demo/sensor_demo.egg-info/top_level.txt\n'}
+[2.214657] (sensor_demo) StdoutLine: {'line': b"writing manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'\n"}
+[2.312306] (-) TimerEvent: {}
+[2.333572] (sensor_demo) StdoutLine: {'line': b"reading manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'\n"}
+[2.335608] (sensor_demo) StdoutLine: {'line': b"writing manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'\n"}
+[2.336994] (sensor_demo) StdoutLine: {'line': b'running build\n'}
+[2.337372] (sensor_demo) StdoutLine: {'line': b'running build_py\n'}
+[2.337658] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build\n'}
+[2.339456] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib\n'}
+[2.339664] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo\n'}
+[2.339846] (sensor_demo) StdoutLine: {'line': b'copying sensor_demo/led_controller.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo\n'}
+[2.340030] (sensor_demo) StdoutLine: {'line': b'copying sensor_demo/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo\n'}
+[2.340204] (sensor_demo) StdoutLine: {'line': b'copying sensor_demo/sensor_reader.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo\n'}
+[2.340421] (sensor_demo) StdoutLine: {'line': b'running install\n'}
+[2.358948] (sensor_demo) StdoutLine: {'line': b'running install_lib\n'}
+[2.392085] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo\n'}
+[2.392484] (sensor_demo) StdoutLine: {'line': b'copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/led_controller.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo\n'}
+[2.392753] (sensor_demo) StdoutLine: {'line': b'copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo\n'}
+[2.393052] (sensor_demo) StdoutLine: {'line': b'copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/sensor_reader.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo\n'}
+[2.393867] (sensor_demo) StdoutLine: {'line': b'byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/led_controller.py to led_controller.cpython-312.pyc\n'}
+[2.395013] (sensor_demo) StdoutLine: {'line': b'byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/__init__.py to __init__.cpython-312.pyc\n'}
+[2.395417] (sensor_demo) StdoutLine: {'line': b'byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/sensor_reader.py to sensor_reader.cpython-312.pyc\n'}
+[2.396560] (sensor_demo) StdoutLine: {'line': b'running install_data\n'}
+[2.396908] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index\n'}
+[2.397194] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index\n'}
+[2.397452] (sensor_demo) StdoutLine: {'line': b'creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index/packages\n'}
+[2.397742] (sensor_demo) StdoutLine: {'line': b'copying resource/sensor_demo -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index/packages\n'}
+[2.397954] (sensor_demo) StdoutLine: {'line': b'copying package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/sensor_demo\n'}
+[2.398149] (sensor_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.412405] (-) TimerEvent: {}
+[2.442721] (sensor_demo) StdoutLine: {'line': b'Copying ../../build/sensor_demo/sensor_demo.egg-info to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo-0.0.0-py3.12.egg-info\n'}
+[2.444277] (sensor_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[2.512560] (-) TimerEvent: {}
+[2.612934] (-) TimerEvent: {}
+[2.701615] (sensor_demo) StdoutLine: {'line': b'Installing led_controller script to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/sensor_demo\n'}
+[2.702558] (sensor_demo) StdoutLine: {'line': b'Installing sensor_reader script to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/sensor_demo\n'}
+[2.702838] (sensor_demo) StdoutLine: {'line': b"writing list of installed files to '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/install.log'\n"}
+[2.713052] (-) TimerEvent: {}
+[2.763939] (sensor_demo) CommandEnded: {'returncode': 0}
+[2.783921] (sensor_demo) JobEnded: {'identifier': 'sensor_demo', 'rc': 0}
+[2.785394] (-) EventReactorShutdown: {}

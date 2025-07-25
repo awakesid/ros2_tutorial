@@ -1,0 +1,9 @@
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+    - Class: rviz_default_plugins/TF
+      Name: TF
+  Global Options:
+    Background Color: 48 48 48
+    Fixed Frame: base_link

@@ -1,0 +1,41 @@
+[1.675s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/src/sensor_demo': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_demo build --build-base /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build install --record /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/install.log --single-version-externally-managed install_data
+[2.174s] running egg_info
+[2.175s] creating ../../build/sensor_demo/sensor_demo.egg-info
+[2.206s] writing ../../build/sensor_demo/sensor_demo.egg-info/PKG-INFO
+[2.211s] writing dependency_links to ../../build/sensor_demo/sensor_demo.egg-info/dependency_links.txt
+[2.211s] writing entry points to ../../build/sensor_demo/sensor_demo.egg-info/entry_points.txt
+[2.211s] writing requirements to ../../build/sensor_demo/sensor_demo.egg-info/requires.txt
+[2.211s] writing top-level names to ../../build/sensor_demo/sensor_demo.egg-info/top_level.txt
+[2.212s] writing manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'
+[2.331s] reading manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'
+[2.334s] writing manifest file '../../build/sensor_demo/sensor_demo.egg-info/SOURCES.txt'
+[2.334s] running build
+[2.334s] running build_py
+[2.336s] creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build
+[2.336s] creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib
+[2.337s] creating /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+[2.337s] copying sensor_demo/led_controller.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+[2.337s] copying sensor_demo/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+[2.337s] copying sensor_demo/sensor_reader.py -> /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo
+[2.337s] running install
+[2.356s] running install_lib
+[2.389s] creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+[2.390s] copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/led_controller.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+[2.390s] copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+[2.390s] copying /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build/lib/sensor_demo/sensor_reader.py -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo
+[2.391s] byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/led_controller.py to led_controller.cpython-312.pyc
+[2.392s] byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/__init__.py to __init__.cpython-312.pyc
+[2.392s] byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo/sensor_reader.py to sensor_reader.cpython-312.pyc
+[2.394s] running install_data
+[2.394s] creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index
+[2.394s] creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index
+[2.395s] creating /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index/packages
+[2.395s] copying resource/sensor_demo -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/ament_index/resource_index/packages
+[2.395s] copying package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/share/sensor_demo
+[2.395s] running install_egg_info
+[2.440s] Copying ../../build/sensor_demo/sensor_demo.egg-info to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages/sensor_demo-0.0.0-py3.12.egg-info
+[2.441s] running install_scripts
+[2.699s] Installing led_controller script to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/sensor_demo
+[2.700s] Installing sensor_reader script to /home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/sensor_demo
+[2.700s] writing list of installed files to '/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/install.log'
+[2.761s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/src/sensor_demo' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/sensor_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_demo build --build-base /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/build install --record /home/awakesid/Desktop/second_ros2_ws/build/sensor_demo/install.log --single-version-externally-managed install_data

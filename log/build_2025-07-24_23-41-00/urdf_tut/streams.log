@@ -1,0 +1,44 @@
+[1.766s] Invoking command in '/home/awakesid/Desktop/second_ros2_ws/urdf_tut': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/urdf_tut build --build-base /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build install --record /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/install.log --single-version-externally-managed install_data
+[2.253s] running egg_info
+[2.254s] creating ../build/urdf_tut/urdf_tut.egg-info
+[2.285s] writing ../build/urdf_tut/urdf_tut.egg-info/PKG-INFO
+[2.285s] writing dependency_links to ../build/urdf_tut/urdf_tut.egg-info/dependency_links.txt
+[2.285s] writing entry points to ../build/urdf_tut/urdf_tut.egg-info/entry_points.txt
+[2.286s] writing requirements to ../build/urdf_tut/urdf_tut.egg-info/requires.txt
+[2.286s] writing top-level names to ../build/urdf_tut/urdf_tut.egg-info/top_level.txt
+[2.286s] writing manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'
+[2.366s] reading manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'
+[2.367s] adding license file 'LICENSE'
+[2.368s] writing manifest file '../build/urdf_tut/urdf_tut.egg-info/SOURCES.txt'
+[2.368s] running build
+[2.368s] running build_py
+[2.369s] creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build
+[2.369s] creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib
+[2.369s] creating /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut
+[2.369s] copying urdf_tut/read_encoder.py -> /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut
+[2.369s] copying urdf_tut/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut
+[2.370s] running install
+[2.379s] running install_lib
+[2.419s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut
+[2.420s] copying /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut/read_encoder.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut
+[2.421s] copying /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build/lib/urdf_tut/__init__.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut
+[2.423s] byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut/read_encoder.py to read_encoder.cpython-312.pyc
+[2.424s] byte-compiling /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut/__init__.py to __init__.cpython-312.pyc
+[2.424s] running install_data
+[2.426s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index
+[2.427s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index
+[2.427s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index/packages
+[2.428s] copying resource/urdf_tut -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/ament_index/resource_index/packages
+[2.428s] copying package.xml -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut
+[2.428s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/launch
+[2.429s] copying launch/display.launch.py -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/launch
+[2.429s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/config
+[2.431s] copying config/robot.rviz -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/config
+[2.431s] creating /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/urdf
+[2.431s] copying urdf/my_robot.urdf -> /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/share/urdf_tut/urdf
+[2.431s] running install_egg_info
+[2.473s] Copying ../build/urdf_tut/urdf_tut.egg-info to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages/urdf_tut-0.0.0-py3.12.egg-info
+[2.475s] running install_scripts
+[2.723s] Installing read_encoder script to /home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/urdf_tut
+[2.724s] writing list of installed files to '/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/install.log'
+[2.773s] Invoked command in '/home/awakesid/Desktop/second_ros2_ws/urdf_tut' returned '0': PYTHONPATH=/home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awakesid/Desktop/second_ros2_ws/install/urdf_tut/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/urdf_tut build --build-base /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/build install --record /home/awakesid/Desktop/second_ros2_ws/build/urdf_tut/install.log --single-version-externally-managed install_data
